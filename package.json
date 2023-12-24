@@ -1,0 +1,15 @@
+{
+   "scripts": {
+      "git-opushforce": "git opushforce",
+      "git-opush": "git opush",
+      "git-opull": "git opull",
+      "git-o-add-commit": "git o-add-commit",
+      "====": "====",
+      "git-config": "code ./.git/config",
+      "git-init": "git init&xcopy /Y E:\\CLOUDCODE\\github.com\\o-nodejs-server\\0git-template\\config .\\.git\\config&code ./.git/config",
+      "=====": "====",
+      "test-oclone": "git oclone ./test-oclone",
+      "test-rmdir": "node -e \"var fs = require('fs'); try{process.argv.slice(1).map((fpath) => fs.rmdirSync(fpath, { recursive: true }))}catch(err){console.log(`Dist not found`)}; process.exit(0);\"",
+      "test-oclone-clean": "npm run test-rmdir ./test-oclone"
+   }
+}
